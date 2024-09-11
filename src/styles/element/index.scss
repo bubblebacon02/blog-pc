@@ -1,11 +1,15 @@
-@forward 'element-plus/theme-chalk/src/common/var.scss' with (
-	$colors: (
-		//这里定义在亮色模式下的颜色
-		'primary': ('base': #5149e4),
-		'success': ('base': #00a389),
-		'warning': ('base': #fd5e0f),
-		'danger': ('base': #ff5b5b),
-		'error': ('base': #ff5b5b),
-		'info': ('base': #8a96b1)
-	)
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    //这里定义在亮色模式下的颜色
+    "primary": ("base": #1abc9c),
+    "success": ("base": #2ecc71),
+    "warning": ("base": #f1c40f),
+    "inverse": ("base": #34495e),
+    "default": ("base": #bdc3c7),
+    // "info": ("base": #3498db),
+    "danger": ("base": #e74c3c),
+    "disabled": ("base": #d1d5d8),
+    "error": ("base": #ff5b5b),
+    "info": ("base": #8a96b1),
+  )
 );

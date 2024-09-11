@@ -7,7 +7,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ElBacktop: typeof import('element-plus/es')['ElBacktop']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElDropdown: typeof import('element-plus/es')['ElDropdown']
+    ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
+    ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    Navbar: typeof import('./src/components/navbar/src/navbar.vue')['default']
+    NavbarActions: typeof import('./src/components/navbar/src/navbar-actions.vue')['default']
+    NavbarUser: typeof import('./src/components/navbar/src/navbar-user.vue')['default']
+    PiggyLogo: typeof import('./src/components/piggy-logo/src/piggy-logo.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TextErasure: typeof import('./src/components/text-erasure/src/text-erasure.vue')['default']

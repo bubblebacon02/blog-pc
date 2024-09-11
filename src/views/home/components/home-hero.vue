@@ -1,8 +1,7 @@
 <template>
   <div class="home-hero">
-    <h2>home-hero</h2>
     <div class="container">
-      <div class="image-wrap">这里是一个logo.vue的组件, 但是目前还没写</div>
+      <div class="image-wrap"><PiggyLogo /></div>
       <div class="main">
         <TextErasure class="title" text="bubblebacon"> </TextErasure>
         <TextErasure class="slogan" text="A BLOG ABOUT FRONT-END DEVELOPMENT">
