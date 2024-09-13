@@ -3,6 +3,8 @@
     <div class="header-area">
       <Navbar></Navbar>
     </div>
+    <!-- 占位用 -->
+    <div class="header-area-copy"></div>
     <div class="main-area">
       <router-view></router-view>
     </div>
@@ -22,6 +24,7 @@ import Navbar from "@/components/navbar/index";
   height: 100%;
   display: flex;
   flex-direction: column;
+  // overflow: hidden;
 
   .header-area {
     position: fixed;
@@ -34,9 +37,21 @@ import Navbar from "@/components/navbar/index";
     box-shadow: var(--base-box-shadow);
   }
 
+  .header-area-copy {
+    // position: relative;
+    // top: 0;
+    // left: 0;
+    z-index: 1;
+    background-color: pink;
+    width: 100%;
+    // overflow: hidden;
+    height: var(--header-height);
+    box-shadow: var(--base-box-shadow);
+  }
+
   .main-area {
     width: 100%;
-    margin-top: var(--header-height);
+    // margin-top: var(--header-height);
     height: calc(100% - var(--header-height));
     overflow: auto;
     scroll-behavior: smooth;

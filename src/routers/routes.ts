@@ -18,7 +18,7 @@ export default [
         name: "about",
         component: () => import("@/views/about/index.vue"),
         meta: {
-          title: "关于我",
+          title: "关于你",
         },
       },
       {

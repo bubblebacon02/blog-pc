@@ -1,6 +1,21 @@
 <template>
-  <div class="login">
-    <h2>login</h2>
+  <div class="login-container">
+    <div class="login-wrapper">
+      <div class="content">
+        <div class="header">
+          <div class="logo">
+            <PiggyLogo></PiggyLogo>
+          </div>
+          <div class="text">
+            <div class="title">title</div>
+            <div class="slogan">slogan</div>
+          </div>
+        </div>
+        <div class="main">
+          
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="home-container">
     <HomeHero></HomeHero>
-    <HomeFooter></HomeFooter>
+    <!-- <HomeFooter></HomeFooter> -->
   </div>
 </template>
 

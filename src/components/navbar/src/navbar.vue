@@ -53,7 +53,7 @@ const navbarMenu: NavbarMenuItem[] = [
   { label: "首页", path: "/home" },
   { label: "网络日志", path: "/blog" },
   { label: "友情链接", path: "/friend-chain" },
-  { label: "关于我", path: "/about" },
+  { label: "关于你", path: "/about" },
 ];
 
 const { isLogin } = useUserGetters();
