@@ -19,6 +19,7 @@ declare module 'vue' {
     NavbarUser: typeof import('./src/components/navbar/src/navbar-user.vue')['default']
     PgForm: typeof import('./src/components/pg-form/src/pg-form.vue')['default']
     PiggyLogo: typeof import('./src/components/piggy-logo/src/piggy-logo.vue')['default']
+    PokerSwipe: typeof import('./src/components/bubblebacon/poker-swipe.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TextErasure: typeof import('./src/components/text-erasure/src/text-erasure.vue')['default']

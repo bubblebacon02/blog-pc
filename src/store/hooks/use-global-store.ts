@@ -9,10 +9,12 @@ export const useGlobalGetters = () => {
   const getAuthorInfo = computed(() => globalStore.authorInfo);
   // 获取首页信息
   const getSiteHomeInfo = computed(() => globalStore.siteHomeInfo);
-
+  // route-animation
+  const getRouteAnimation = computed(() => globalStore.routeAnimation);
   return {
     getAuthorInfo,
     getSiteHomeInfo,
+    getRouteAnimation,
   };
 };
 

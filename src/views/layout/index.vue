@@ -6,7 +6,11 @@
     <!-- 占位用 -->
     <div class="header-area-copy"></div>
     <div class="main-area">
-      <router-view></router-view>
+      <router-view v-slot="{ Component }">
+        <Transition :name="getRouteAnimation" mode="out-in">
+          <Component :is="Component" />
+        </Transition>
+      </router-view>
     </div>
 
     <!-- 滚动到顶部 -->
@@ -16,6 +20,9 @@
 
 <script setup lang="ts">
 import Navbar from "@/components/navbar/index";
+import { useGlobalGetters } from "@/store";
+
+const { getRouteAnimation } = useGlobalGetters();
 </script>
 
 <style lang="less" scoped>
