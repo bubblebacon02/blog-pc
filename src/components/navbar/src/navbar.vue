@@ -96,10 +96,14 @@ const goToLogin = () => {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 70%;
         font-size: 22px;
         @media (max-width: @size-xs) {
           font-size: 20px;
+        }
+
+        span {
+          color: var(--primary-color);
         }
       }
       .search {

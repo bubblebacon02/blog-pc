@@ -13,6 +13,7 @@ declare module 'vue' {
     ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
     ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
     ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElInput: typeof import('element-plus/es')['ElInput']
     IframeEmbed: typeof import('./src/components/iframe-embed/src/iframe-embed.vue')['default']
     Navbar: typeof import('./src/components/navbar/src/navbar.vue')['default']
     NavbarActions: typeof import('./src/components/navbar/src/navbar-actions.vue')['default']
